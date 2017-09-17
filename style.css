@@ -1,9 +1,16 @@
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+h2 {
+    font-size: 60px;
+    color: teal;
+}
+
 body {
+    margin: 0 auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,8 +18,8 @@ body {
 }
 
 header {
-    background-color: red;
-    padding: 80px;
+    background-color: white;
+    padding: 40px;
 }
 
 body {
@@ -21,12 +28,24 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h3 {
+main p {
+    color: teal;
+    padding-top: 60px;
+}
+
+p {
     font-size: 40px;
+    color: goldenrod;
+}
+
+h3 {
+    font-size: 60px;
+    padding-bottom: 0px;
 }
 
 h4 {
-    font-size: 35px;
+    font-size: 55px;
+    padding-top: 0px;
 }
 
 article p {
@@ -35,17 +54,25 @@ article p {
 
 ul {
     list-style-type: none;
+    font-size: 40px;
+    color: goldenrod;
+    padding-right: 20px;
 }
 
 #subheader {
-    background-color: grey;
-    padding: 3px;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 0.02px;
 }
 
 img {
-    padding: 20px;
+    padding: 70px 10px;
 }
 
 #columns {
     column-count: 2;
+    column-rule-width: 1px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, .2)
 }
