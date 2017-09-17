@@ -3,10 +3,16 @@ h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image :url("https://i.pinimg.com/originals/a3/83/9a/a3839a442559e20916db3423f22245d1.jpg");
+}
 
 header {
     background-color: red;
-    padding: 100px;
+    padding: 80px;
 }
 
 body {
@@ -24,9 +30,22 @@ h4 {
 }
 
 article p {
-    padding: 25px 200px;
+    padding: 15px 200px;
 }
 
 ul {
     list-style-type: none;
+}
+
+#subheader {
+    background-color: grey;
+    padding: 3px;
+}
+
+img {
+    padding: 20px;
+}
+
+#columns {
+    column-count: 2;
 }
